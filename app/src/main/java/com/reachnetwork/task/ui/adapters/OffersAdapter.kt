@@ -45,7 +45,6 @@ class OffersAdapter: ListAdapter<OffersResponse, OffersAdapter.OffersViewHolder>
                 Glide.with(ivArticleImage).load(
                     offersResponse.data.offers.data[listPosition].cover_image
                 ).into(ivArticleImage)
-                tvSource.text = offersResponse.data.offers.data[listPosition].title
             }
         }
     }

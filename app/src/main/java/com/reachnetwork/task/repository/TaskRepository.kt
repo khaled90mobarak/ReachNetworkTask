@@ -7,4 +7,8 @@ class TaskRepository {
     suspend fun getOffers() =
         RetrofitInstance.api.getOffers()
 
+    suspend fun getUsers() =
+        RetrofitInstance.api.getUsers()
+
+
 }
